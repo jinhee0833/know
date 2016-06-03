@@ -1,0 +1,49 @@
+<resources>
+
+    <style name="HelloAntsTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimaryDark">@color/helloants_header</item>
+        <!-- header -->
+        <item name="colorPrimary">@color/helloants_tab</item>
+        <!-- tab -->
+        <item name="colorAccent">@color/helloants_menu_select</item>
+        <!-- menu -->
+
+    </style>
+
+    <style name="MyTextInputLayoutTextAppearance" parent="TextAppearance.AppCompat">
+        <item name="android:textColorHint">#0097A7</item>
+        <item name="colorControlNormal">#0097A7</item>
+        <item name="colorControlActivated">#0097A7</item>
+    </style>
+
+    <style name="FabTheme">
+        <item name="colorAccent">#00BCD4</item>
+    </style>
+
+    <style name="EditTextColor">
+        <item name="colorControlNormal">@color/helloants_black</item>
+        <item name="colorControlActivated">@color/helloants_black</item>
+        <item name="colorControlHighlight">@color/helloants_black</item>
+    </style>
+
+    <style name="TextLabel" parent="TextAppearance.AppCompat">
+        <item name="android:textColorHint">@color/helloants_black</item>
+        <item name="android:textSize">20sp</item>
+        <item name="colorAccent">@color/helloants_black</item>
+        <item name="colorControlNormal">@color/helloants_black</item>
+        <item name="colorControlActivated">@color/helloants_black</item>
+    </style>
+
+    <style name="switchStyle">
+        <item name="colorControlActivated">@color/helloants_yellow</item>
+        <item name="android:colorForeground">@color/helloants_gray</item>
+    </style>
+
+    <style name="HelloAntsTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="HelloAntsTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="testo" parent="@android:style/Widget.DeviceDefault.DatePicker">
+        <item name="android:textColor">#FF0000</item>
+    </style>
+</resources>

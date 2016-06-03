@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.helloants.mm.helloants1.activity.BsEachList">
+
+    <RelativeLayout
+        android:id="@+id/layout_cardmodify"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/helloants_yellow"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <ImageButton
+            android:id="@+id/img_btn_bseachlist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@color/helloants_yellow"
+            android:padding="8dp" />
+
+        <TextView
+            android:id="@+id/txv_title_bseachlist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/img_btn_bseachlist"
+            android:padding="8dp"
+            android:textColor="#000"
+            android:textSize="12pt"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/bseach_listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></android.support.v7.widget.RecyclerView>
+
+</LinearLayout>
